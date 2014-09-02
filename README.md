@@ -8,3 +8,8 @@ You probably won't use this directly, but it is used by ampersand-model-pouchdb-
 npm install ampersand-pouchdb-sync
 ```
 
+## credit
+
+Credit goes to [jo](https://github.com/jo) for the initail
+implementation in [backbone-pouch](https://github.com/jo/backbone-pouch)
+
