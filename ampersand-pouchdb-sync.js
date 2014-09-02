@@ -3,7 +3,7 @@ var extend = require('extend-object');
 var PouchDB = require('pouchdb');
 
 var methodMap = {
-  'create': 'put',
+  'create': 'post',
   'update': 'put',
   'patch':  'put',
   'delete': 'remove'
