@@ -10,6 +10,6 @@ npm install ampersand-pouchdb-sync
 
 ## credit
 
-Credit goes to [jo](https://github.com/jo) for the initail
+Credit goes to [jo](https://github.com/jo) for the initial
 implementation in [backbone-pouch](https://github.com/jo/backbone-pouch)
 
