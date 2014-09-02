@@ -1,7 +1,7 @@
 {
   "name": "ampersand-pouchdb-sync",
   "description": "AmpersandJS PouchDB Sync Adapter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Sven Lito <me@svenlito.com>",
   "bugs": {
     "url": "https://github.com/svnlto/ampersand-pouchdb-sync/issues"
