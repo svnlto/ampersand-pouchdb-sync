@@ -40,7 +40,6 @@ module.exports = function (defaults) {
   pouchSettings.defaults.db = new PouchDB(defaults.database);
   defaults = extend(pouchSettings.defaults, defaults);
 
-
   var adapter = function (method, model, options) {
 
     options = options || {};
@@ -119,7 +118,7 @@ module.exports = function (defaults) {
       // query view or spatial index
       if (options.fetch === 'query' || options.fetch === 'spatial') {
         if (!options.options[options.fetch].fun) {
-          throw new Error('A "' + options.fetch + '.fun" object must be specified');
+          throw new Error('A \'' + options.fetch + '.fun\' object must be specified');
         }
         return options.db[options.fetch](options.options[options.fetch].fun, options.options[options.fetch], callback);
       }
